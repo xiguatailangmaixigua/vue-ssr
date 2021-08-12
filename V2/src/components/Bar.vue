@@ -6,9 +6,9 @@
     </div>
 </template>
 <script>
-    const fetchInitialData = (store => {
+    const fetchInitialData = ({ store }) => {
         store.dispatch('fetchBar')
-    })
+    }
 
     export default {
         asyncData: fetchInitialData,

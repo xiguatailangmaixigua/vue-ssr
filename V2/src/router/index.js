@@ -12,7 +12,7 @@ function createRouter() {
         },
         {
             path: 'foo',
-            component: () => import('../components/Bar.vue')
+            component: () => import('../components/Foo.vue')
         }
     ];
 
